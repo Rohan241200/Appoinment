@@ -1,0 +1,145 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.bg-card {
+  width: 80%;
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 30px;
+}
+.user-details-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #171f46;
+  align-self: flex-start;
+}
+
+.appointment {
+  width: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 38px;
+  }
+
+  .user-card {
+    width: 50%;
+  }
+  .appointment {
+    padding: 20px;
+    width: 30%;
+    margin-right: 20px;
+  }
+}
+
+.user-label {
+  color: #b5b7c4;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+  margin-bottom: 10px;
+}
+
+.user-input {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #171f46;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  background-color: #8b5cf6;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  align-self: flex-start;
+}
+
+.separate {
+  width: 100%;
+  border: 2px solid #b5b7c4;
+}
+
+.app-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.app-desc {
+  margin-left: 15px;
+  margin-right: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.app-star {
+  background-color: transparent;
+  color: #9897f0;
+  border: 1px solid #9897f0;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Roboto;
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .items {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

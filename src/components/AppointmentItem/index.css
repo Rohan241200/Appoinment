@@ -1,0 +1,44 @@
+.user-lists-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #b5b7c4;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .user-lists-card {
+    width: 30%;
+    margin-right: 20px;
+  }
+}
+
+.user-card-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+
+.user-card-name {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: #171f46;
+}
+
+.star-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.user-card-date {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #b5b7c4;
+}
